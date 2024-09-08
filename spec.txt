@@ -1,0 +1,33 @@
+HLT - Halt
+NOP - Nothing
+
+JMP - Jump - INT
+JCN - Jump while Operand 1 == Operand 2 - REG, REG, INT
+CAL - Call - INT
+RET - Return
+
+LD - Load - RAM
+LDI - Load Immediate - REG, STR / INT
+ST - Store - REG
+STI - Store Immediate - RAM, STR / INT
+MOV - Move - REG REG
+CP - Copy - REG REG
+
+INC - Increase - REG
+DEC - Decrease - REG
+ADD - Add - REG REG REG
+SUB - Sub - REG REG REG
+MUL - Mul - REG REG REG
+DIV - Div - REG REG REG
+OR - Or - REG REG REG - 1
+XOR - Xor - REG REG REG - 1
+AND - And - REG REG REG - 1
+NOT - Not - REG REG REG - 1
+CMP - Compare - REG REG REG REG REG - ==, <, >
+RIT - Random INT in a range - REG REG REG
+
+OUT - Output - REG
+IN - Input - REG
+GCH - Input but with getch - REG
+PLT - Plot - REG, REG
+CPT - Clear plot
